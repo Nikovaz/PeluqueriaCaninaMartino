@@ -1,14 +1,9 @@
 import React from 'react';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -19,13 +14,13 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <h3>🐕 Corte Canino Martino</h3>
-              <p>Peluquería canina profesional a domicilio</p>
+              <h3>🐶 Corte Canino Martino</h3>
+              <p>🐾 Peluquería canina profesional a domicilio</p>
             </div>
             <div className="footer-contact">
-              <p>📱 +54 9 11 3284-7620</p>
+              <p>📞 +54 9 11 5758-2529</p>
               <p>📧 martinogalarza@gmail.com</p>
-              <p>🏠 Capital Federal y Gran Buenos Aires</p>
+              <p>📍 Capital Federal y Gran Buenos Aires</p>
             </div>
           </div>
           
@@ -41,32 +36,22 @@ const Footer = () => {
           </div>
           
           <div className="footer-section">
-            <h4>Navegación</h4>
-            <ul>
-              <li><button onClick={() => scrollToSection('hero')}>Inicio</button></li>
-              <li><button onClick={() => scrollToSection('services')}>Servicios</button></li>
-              <li><button onClick={() => scrollToSection('about')}>Nosotros</button></li>
-              <li><button onClick={() => scrollToSection('contact')}>Contacto</button></li>
-            </ul>
-          </div>
-          
-          <div className="footer-section">
             <h4>Síguenos</h4>
             <div className="social-links">
-              <a href="https://wa.me/5491132847620" target="_blank" rel="noopener noreferrer" className="social-link whatsapp">
-                💬 WhatsApp
+              <a href="https://wa.me/5491157582529" target="_blank" rel="noopener noreferrer" className="social-link whatsapp">
+                <FontAwesomeIcon icon={faWhatsapp} size="2x" />
               </a>
               <a href="https://instagram.com/cortecaninodomicilio" target="_blank" rel="noopener noreferrer" className="social-link instagram">
-                📷 Instagram
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
               <a href="https://facebook.com/cortecaninodomicilio" target="_blank" rel="noopener noreferrer" className="social-link facebook">
-                📘 Facebook
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
             </div>
             
             <div className="footer-cta">
               <h5>¿Listo para agendar?</h5>
-              <a href="https://wa.me/5491132847620?text=Hola! Me gustaría agendar una cita" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              <a href="https://wa.me/5491157582529?text=Hola! Me gustaría agendar una cita" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                 Contactar Ahora
               </a>
             </div>
@@ -95,7 +80,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>&copy; 2024 Corte Canino Martino. Todos los derechos reservados.</p>
-            <p>Desarrollado con ❤️ para el cuidado de tu mascota</p>
+            <p>Desarrollado por <a href="https://github.com/nikoVaz" target="_blank" rel="noopener noreferrer">nikoVaz</a></p>
           </div>
           <button className="scroll-to-top" onClick={scrollToTop}>
             ↑

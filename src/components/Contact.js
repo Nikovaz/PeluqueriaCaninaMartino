@@ -70,8 +70,8 @@ Hola! Me gustaría agendar una cita:
                 <span className="icon">📱</span>
                 <div>
                   <h4>WhatsApp</h4>
-                  <p>+54 9 11 3284-7620</p>
-                  <a href="https://wa.me/5491132847620" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
+                  <p>+54 9 11 5758-2529</p>
+                  <a href="https://wa.me/5491157582529" target="_blank" rel="noopener noreferrer" className="whatsapp-link">
                     Enviar mensaje
                   </a>
                 </div>
@@ -98,7 +98,6 @@ Hola! Me gustaría agendar una cita:
                 <div>
                   <h4>Horarios</h4>
                   <p>Lunes a Sábado: 9:00 - 18:00</p>
-                  <p>Domingos: 10:00 - 16:00</p>
                 </div>
               </div>
             </div>
@@ -112,7 +111,7 @@ Hola! Me gustaría agendar una cita:
                 <a href="https://facebook.com/cortecaninodomicilio" target="_blank" rel="noopener noreferrer" className="social-btn facebook">
                   📘 Facebook
                 </a>
-                <a href="https://wa.me/5491132847620" target="_blank" rel="noopener noreferrer" className="social-btn whatsapp">
+                <a href="https://wa.me/5491157582529" target="_blank" rel="noopener noreferrer" className="social-btn whatsapp">
                   💬 WhatsApp
                 </a>
               </div>
@@ -121,7 +120,7 @@ Hola! Me gustaría agendar una cita:
             <div className="emergency-contact">
               <h4>🚨 Urgencias</h4>
               <p>Para casos de emergencia o citas urgentes, contáctanos directamente por WhatsApp</p>
-              <a href="https://wa.me/5491132847620?text=Hola! Necesito una cita urgente" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+              <a href="https://wa.me/5491157582529?text=Hola! Necesito una cita urgente" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                 Contacto Urgente
               </a>
             </div>
