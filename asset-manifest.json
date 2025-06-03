@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PeluqueriaCaninaMartino/static/css/main.fa27ade0.css",
+    "main.js": "/PeluqueriaCaninaMartino/static/js/main.cf3ece80.js",
+    "index.html": "/PeluqueriaCaninaMartino/index.html",
+    "main.fa27ade0.css.map": "/PeluqueriaCaninaMartino/static/css/main.fa27ade0.css.map",
+    "main.cf3ece80.js.map": "/PeluqueriaCaninaMartino/static/js/main.cf3ece80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa27ade0.css",
+    "static/js/main.cf3ece80.js"
+  ]
+}
